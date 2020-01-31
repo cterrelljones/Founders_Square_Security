@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.regist-container{
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px;
+  height: 400px;
+  width: 600px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+
+.login-container{
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.inline{
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  vertical-align: center;
+  margin-top: 100px;
+
+}
+
+.anot{
+  margin-bottom: 10px;
+}
+
+.class{
+  display: inline-block;
+}
+
+.holder-container{
+  height: 700px;
+  width: 950px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.error-container{
+  position: relative;
+  animation-name: error-move;
+  animation-duration: 1s;
+  left: 50%;
+  top: -5em;
+}
+
+@keyframes error-move{
+  0% {top: 10em;}
+  80% {top: -8em;}
+  100% {top: -5em;}
+}

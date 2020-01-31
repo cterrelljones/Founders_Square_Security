@@ -1,0 +1,27 @@
+.table-container{
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow-y: scroll;
+}
+
+img {
+    float:  center;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
+}
+
+td{
+    vertical-align: middle;
+}
+
+tbody{
+    vertical-align: middle;
+}
+
+.test{
+    width:40em;
+    word-wrap:break-word;
+}

@@ -1,0 +1,16 @@
+.txt-container{
+    height: 400px;
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 17rem;
+    animation-name: move-text;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes move-text{
+    0% {top: 900px; opacity: 0;}
+    80% {top: -30px; opacity: .5;}
+    100% {top: 0px; opacity: 2;}
+}

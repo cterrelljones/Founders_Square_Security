@@ -1,0 +1,57 @@
+.txt-container{
+    height: 400px;
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    animation-name: move-text;
+    animation-duration: .75s;
+    position: relative;
+}
+
+@keyframes move-text{
+    0% {top: 100px; opacity: 0;}
+    80% {top: -30px; opacity: .5;}
+    100% {top: 0px; opacity: 2;}
+}
+@keyframes img {
+    0% {transform: rotateZ(0deg);}
+    25% {transform: rotateZ(10deg);}
+    50% {transform: rotateZ(0deg);}
+    75% {transform: rotateZ(-10deg);}
+    100% {transform: rotateZ(0deg);}
+}
+
+p{
+    margin-top: 10px;
+    text-align: center ;
+}
+
+
+
+.pictures{
+    display: block;
+    height: 200;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.empty{
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.image{
+    display: inline-block;
+    border-radius: 10%;
+    height: 200px;
+    width: auto;
+    box-shadow: 3px 3px 3px 3px;
+    position: relative;
+    animation-name: img;
+    animation-duration: 1s;
+    margin-top: 50px;
+    margin-right: 10px;
+}
